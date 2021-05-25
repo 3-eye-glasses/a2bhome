@@ -1,6 +1,6 @@
 url: https://a2bhome.vn
 baseurl: /
-
+<link rel="stylesheet" href="{{ "/_layout/style.css, " | prepend: site.baseurl }}">
 # Site settings
 title: A2bhome
 email: your-email@domain.com
