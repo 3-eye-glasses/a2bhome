@@ -5,9 +5,12 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
+  path: _includes/assets/agency.css
+  label: Style
+  match: "**/*"
+- type: document
   path: _layouts/default.html
   label: Index
-  match: "**/*"
 - type: directory
   path: _includes
   label: Section
